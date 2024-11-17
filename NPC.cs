@@ -4,24 +4,23 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    //Здоровье NPC
+    //Р—РґРѕСЂРѕРІСЊРµ NPC
     int health = 5;
-    //Уровень NPC
+    //РЈСЂРѕРІРµРЅСЊ NPC
     int level = 1;
-    //Скорость NPC
+    //РЎРєРѕСЂРѕСЃС‚СЊ NPC
     float speed = 1.2f;
 
     // Start is called before the first frame update
     void Start()
     {
         health = health + level;
-        print("Жизней: " + health);
+        print("Р–РёР·РЅРµР№: " + health);
     }
 
     // Update is called once per frame
     void Update()
     {
-        health = health + level;
-        print("Жизней: " + health);
+        
     }
 }
